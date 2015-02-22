@@ -1,0 +1,24 @@
+{
+	"name": "xml",
+	"description": "Internal XML tree for handling SVG",
+	"copyright": "Copyright (C) 2015 authors",
+	"license": "MIT",
+	"authors": [
+		"Liam P. White",
+		"Mihail K."
+	],
+	"dependencies": {
+	},
+	"configurations": [
+		{
+			"name": "application",
+			"targetType": "executable"
+		},
+		{
+			"name": "library",
+			"excludedSourceFiles": [
+				"source/app.d"
+			]
+		}
+	]
+}
