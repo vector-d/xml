@@ -1,0 +1,14 @@
+# Object files
+*.o
+*.obj
+*.exe
+
+# Extra files
+*.d~
+
+# Dub files
+.dub
+docs.json
+__dummy.html
+*.selections.json
+__test__library__
